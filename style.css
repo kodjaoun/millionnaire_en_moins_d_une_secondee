@@ -1,0 +1,210 @@
+body{
+    margin: 0;
+}
+.conteneur{
+    width: 35%;
+    height: 100px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+.div1{
+    width: 34%;
+}
+.div1 button{
+    width: 100%;
+    padding: 15px;
+}
+.div1 .superieur1{
+    background-color: rgb(12, 160, 44);
+    border: 1px solid rgb(12, 160, 44);
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+}
+.div1 .inferieur1{
+    background-color: rgb(238, 125, 19);
+    border: 1px solid rgb(238, 125, 19);
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+}
+.div2{
+    width: 34%;
+}
+.div2 button{
+    width: 100%;
+    padding: 15px;
+}
+.div2 .superieur2{
+    background-color: rgb(12, 160, 44);
+    border: 1px solid rgb(12, 160, 44);
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+}
+.div2 .inferieur2{
+    background-color: rgb(238, 125, 19);
+    border: 1px solid rgb(238, 125, 19);
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+}
+.div3{
+    width: 34%;
+}
+.div3 button{
+    width: 100%;
+    padding: 15px;
+}
+.div3 .superieur3{
+    background-color: rgb(12, 160, 44);
+    border: 1px solid rgb(12, 160, 44);
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+}
+.div3 .inferieur3{
+    background-color: rgb(238, 125, 19);
+    border: 1px solid rgb(238, 125, 19);
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+}
+.conteneur1{
+    height: 300px;
+    background-color: rgb(4, 4, 39);
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+.conteneur1 .nombre1{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    transition: 1s;
+    padding-top: 130px;
+}
+.conteneur2{
+    height: 300px;
+    background-color: rgb(4, 4, 39);
+    margin-top: -20px;
+    margin-bottom: 10px;
+
+}
+.conteneur2 .nombre2{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    transition: 1s;
+    padding-top: 130px;
+}
+.conteneur3{
+    height: 300px;
+    background-color: rgb(4, 4, 39);
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+.conteneur3 .nombre3{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    transition: 1s;
+    padding-top: 130px;
+}
+.mise{
+    margin-top: 350px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.mise button{
+    padding: 20px;
+    color: white;
+    background-color: goldenrod;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+@media screen and (max-width: 1000px) {
+    .conteneur{
+        width: 50%;
+    }
+    .div1{
+        width: 50%;
+    }
+    .div2{
+        width: 50%;
+    }
+    .div3{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .conteneur{
+        width: 70%;
+    }
+    .div1{
+        width: 50%;
+    }
+    .div2{
+        width: 50%;
+    }
+    .div3{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .conteneur{
+        width: 90%;
+    }
+    .div1{
+        width: 50%;
+    }
+    .div2{
+        width: 50%;
+    }
+    .div3{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .conteneur{
+        width: 95%;
+    }
+    .div1{
+        width: 50%;
+    }
+    .div2{
+        width: 50%;
+    }
+    .div3{
+        width: 50%;
+    }
+    .mise{
+        flex-wrap: wrap;
+    }
+    .mise button{
+        padding: 5px;
+    }
+    .div1 button{
+        width: 100%;
+        padding: 10px;
+        font-size: 10px;
+    }
+    .div2 button{
+        width: 100%;
+        padding: 10px;
+        font-size: 10px;
+    }
+    .div3 button{
+        width: 100%;
+        padding: 10px;
+        font-size: 10px;
+    }
+}
